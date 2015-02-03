@@ -1,0 +1,296 @@
+/*Scratch Pad 
+.class{
+	border: 1px solid #000000;
+}
+*/
+
+/*Resets and overrides
+==============================*/
+.{
+	margin: 0px;
+	padding: 0px;
+}
+
+/*Links and type
+==============================*/
+body{
+	font-family: 'Verdana';
+	font-size: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+.home{
+	
+}
+/*Main layout
+==============================*/
+/*Encabezado*/
+.siguenos{
+	font-family: "Open Sans", sans-serif;
+	font-size: 10pt;
+}
+#logo{
+	line-height: -4em;
+}
+/*Google Custom Search */
+.gsc-input{
+
+}
+.gsc-search-button{
+	background:url(../img/searchbutton_01.png);
+	width: 25px;
+	height: 26px;
+}
+.gsc-control-cse{
+	padding: 0px 0px 0px 0px;
+}
+
+.buscar{
+
+	input[type="text"]
+	{
+		font-family: "Open Sans", sans-serif;
+		font-size: 10pt;
+	 	width:80px;
+	 	color: #669999;
+		border: 0px solid  #FFFFFF;
+		height: 24px;
+		width: 150px;
+		padding-right: 0px;
+		padding-left: 3px;
+	}
+
+	input[type="submit"]{
+		background:url(../img/searchbutton_01.png);
+		width: 25px;
+		height: 26px;
+		box-shadow:rgba(0,0,0,0.2) 0 0 0 0;
+		border: none;
+		vertical-align: middle;
+	}
+} 
+
+.titulo{
+	/*Bebas Neue/ Regular/ 41pt/ 66CCCC/ leading:49, tracking:10*/
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 34pt;
+	color: #66CCCC;
+	padding-left: 10px;
+	/*line-height: 49pt;
+	letter-spacing: 10pt;*/
+}
+#buscar{
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+/*Botones del Menu*/
+.menu1{
+	background:url(../img/headerbutton_01.png); 
+	background-size: 160px 120px;
+	width: 160px;
+	height: 120px;
+}
+.menu2{
+	background:url(../img/headerbutton_02.png); 
+	background-size: 160px 120px;
+	width: 160px;
+	height: 120px;
+}
+.menu3{
+	background:url(../img/headerbutton_03.png); 
+	background-size: 160px 120px;
+	width: 160px;
+	height: 120px;
+}
+.menu4{
+	background:url(../img/headerbutton_04.png); 
+	background-size: 160px 120px;
+	width: 160px;
+	height: 120px;
+}
+.menu5{
+	background:url(../img/headerbutton_05.png); 
+	background-size: 160px 120px;
+	width: 165px;
+	height: 120px;
+}
+
+/*Estilo para el texto de cada item del menu*/
+a.menuItem{
+	font-family: "Cabin", sans-serif;
+	color: #FFFFFF;
+	font-size: 18pt;
+	text-align: center;
+	text-decoration: none;
+	line-height:5em;
+}
+a.menuItem:hover{
+	text-decoration:underline;
+} 
+a.menuItem:active{
+	text-decoration:underline;
+}
+/*Seccion de escaparate*/
+#escaparate{
+	padding: 0px;
+}
+/*Sección de Noticias */
+.noticias{
+
+}
+.noticia_texto{
+	color: #669999;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	padding: 2px 2px 10px 2px;
+}
+.noticia_titulo{
+	color: #00CC99;
+	font-family: "Cabin", sans-serif;
+	font-size: 16pt;
+}
+#noticia_2{
+	border-right: solid thin #3AC4BD;
+	border-left: solid thin #3AC4BD;
+	adding: 2px 2px 2px 2px
+}
+a.ver_mas{
+	font-family: "Open Sans", sans-serif;
+	font-size: 11pt;
+	font-weight: 600;
+	color: #33CCCC;
+}
+/*Secciones */
+.secciones{
+	margin-left: 5px;
+}
+.seccion{
+	background-size: 202px 160px;
+	width: 202px;
+	height: 160px;
+	font-size: 0;
+	margin-left: -5px;
+	padding: 2px 2px 0px 10px;
+}
+#seccion_1{
+	background:url(../img/bottomsquare_01.png); 
+}
+#seccion_2{
+	background:url(../img/bottomsquare_02.png); 
+}
+#seccion_3{
+	background:url(../img/bottomsquare_03.png); 
+}
+#seccion_4{
+	background:url(../img/bottomsquare_04.png); 
+}
+.seccion_titulo{
+	/*Cabin/ Regular/ 20pt/ FFFFFF/ leading:19, tracking:30*/
+	font-family: "Cabin", "Open Sans", sans-serif;
+	text-decoration: none;
+	font-size: 13pt;
+	color: #FFFFFF;
+}
+.seccion_texto{
+	/*Open Sans/ Regular/ 12pt/ FFFFFF/ leading:16, tracking:20*/
+	font-family: "Open Sans", sans-serif;
+	text-decoration: none;
+	font-size: 9pt;
+	color: #FFFFFF;
+}
+.cuenta_correo{
+	font-family: "Open Sans", sans-serif;
+	text-decoration: none;
+	font-size: 11pt;
+	color: #FFFFFF;
+	line-height: 25px;
+}
+.tel_contacto{
+	font-size: 11pt;
+	color: #FFFFFF;
+	line-height: 25px;
+}
+a.correo{
+		color: #FFFFFF;
+}
+div.firma{
+	/*Open Sans/ Regular/ 12pt/ 669999/ leading:16, tracking:30*/
+	font-family: "Open Sans", sans-serif;
+	font-size: 10pt;
+	text-align: center;
+}
+
+/*FONTS*/
+@font-face {
+  font-family: "Bebas Neue";
+  src: local("☺"),
+    url("type/BebasNeue.otf") format("opentype");
+  }
+
+/*Secondary layout structures
+==============================*/
+/*Pagina de CURSOS*/
+.cursos{
+	background-color: #FFFFFF;
+	padding: 20px 5px 25px 5px;
+}
+#titulo_curso{
+	font-family: "BebasNeue", "Open Sans", sans-serif;
+	text-decoration: none;
+	font-size: 28pt;
+	color: #77E6E4;
+}
+#titulo_texto{
+	font-family: "Open Sans", sans-serif;
+	text-decoration: none;
+	font-size: 12pt;
+	color: #000000;
+}
+/*
+This is the visible area of you carousel.
+Set a width here to define how much items are visible.
+The width can be either fixed in px or flexible in %.
+Position must be relative!
+*/
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+}
+
+/*
+This is the container of the carousel items.
+You must ensure that the position is relative or absolute and
+that the width is big enough to contain all items.
+*/
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+
+    /* Optional, required in this case since it's a <ul> element */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+These are the item elements. jCarousel works best, if the items
+have a fixed width and height (but it's not required).
+*/
+.jcarousel li {
+    /* Required only for block elements like <li>'s */
+    float: left;
+}
+.jcarousel-pagination{
+	width: 11px;
+	height: 13px;
+	font-size: 9px;
+	background-image: url(img/pagination-active.png);
+	color: #FFFFFF;
+}
+/*Form elements
+==============================*/
+
+
+/*Miscellaneous
+==============================*/

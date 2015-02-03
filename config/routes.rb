@@ -2,16 +2,6 @@ Rails.application.routes.draw do
 
   get 'welcome/index'
 
-  resources :module5s
-
-  resources :module4s
-
-  resources :module3s
-
-  resources :module2s
-
-  resources :module1s
-
   get 'password_resets/new'
 
   get 'admin' => 'admin#index'

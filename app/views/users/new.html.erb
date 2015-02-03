@@ -1,5 +1,143 @@
-<h1>New user</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Centro de Diabetes Monterrey</title>
+<link rel="stylesheet" href="css/960_24_col.css" type="text/css" />
+<link rel="stylesheet" href="css/main.css" type="text/css" />
 
-<%= render 'form' %>
+<!-- Example assets -->
+<link rel="stylesheet" type="text/css" href="css/jcarousel.basic.css">
+<script type="text/javascript" src="jquery/jquery.js"></script>
+<script type="text/javascript" src="jquery/jquery.jcarousel.min.js"></script>
+<script type="text/javascript" src="jquery/jcarousel.basic.js"></script>
 
-<%= link_to 'Back', users_path %>
+<!--[if IE]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<!--[if lte IE 7]>
+	<script src="js/IE8.js" type="text/javascript"></script><![endif]-->
+<!--[if lt IE 7]>
+	<link rel="stylesheet" type="text/css" media="all" href="css/ie6.css"/><![endif]-->
+
+</head>
+<body id="index" class="home">
+<div id="google_custom_search"><!--Google Custom Search Code -->
+	<script>
+  (function() {
+    var cx = '001121310335943621884:7wshjb_lvfu';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+</div>
+	<div class="container_24"> <!---Inicio del grid -->
+		<!--Botones para redes sociales -->
+		<div id="siguenos" class="grid_5 push_16 siguenos">Siguenos en:
+			<a href="http://www.facebook.com"><img src="img/socialbutton_01.png"></a>
+			<a href="http://www.twitter.com"><img src="img/socialbutton_02.png"></a>
+			<a href="http://www.youtube.com.mx"><img src="img/socialbutton_03.png"></a>
+		</div>
+		<!-- Terminan botones para redes sociales -->
+	<div class="clear">&nbsp;</div>
+		<!--formulario de busqueda -->
+		<div id="logo" class="grid_3"><a href="index.html">
+			<img src="img/Logo.png" width="115" height="115"></a></div>
+		<div id="Titulo" class="grid_12 titulo">Centro de Diabetes Monterrey</div>
+		<div id="buscar" class="grid_5">
+			<gcse:search></gcse:search>
+			<!--	 
+			<INPUT TYPE="text" VALUE="Buscar..." size> 
+				<INPUT TYPE="submit" VALUE="">-->
+		</div>
+		<!-- termina formulario de busqueda -->
+	<div class="clear">&nbsp;</div> 
+		<!-- Barra de herramientas -->
+		<div id="btn_accesorios" class="grid_4">
+			<a class="menuItem" href="accesorios.html"><div class="menu1">Accesorios</div></a>
+		</div>
+		<div id="btn_cursos" class="grid_4">
+			<a class="menuItem" href="cursos.html"><div class="menu2">Cursos</div></a>
+		</div>
+		<div id="btn_nutricion" class="grid_4">
+			<a class="menuItem" href="nutricion.html"><div class="menu3">Nutrición</div></a>
+		</div>
+		<div id="btn_servicios" class="grid_4">
+			<a class="menuItem" href="servicios.html"><div class="menu4">Servicios</div></a>
+		</div>
+		<div id="btn_conocenos" class="grid_4">
+			<a class="menuItem" href="conocenos.html"><div class="menu5">Conócenos</div></a>
+		</div>
+		<!-- Termina Barra de herramientas -->
+			<div class="clear">&nbsp;</div>
+		<!-- Escaparate -->
+        <%= render 'form' %>
+        <!-- termina Escaparate -->    
+			<div class="clear">&nbsp;</div>
+		
+        
+        <!-- Noticias -->
+		<div id="flecha" class="grid_1">
+			<a href=""><img src="img/arrow_left.png"></a>
+		</div>	
+		<div id="noticia_1" class="grid_6">
+			<div id="noticia1_titulo" class="noticia_titulo">Valoración Completa</div>
+			<div id="noticia1_texto" class="noticia_texto">El Centro de diabetes monterrey le ofrece en un lapso de 6 a 8 horas, llevar a cabo los estudios que se requieran para conocer el estado de los órganos que son afectados por la diabetes.<a href="valoracion.html" class="ver_mas">Ver mas...</a></div>
+		</div>
+		<div id="noticia_2" class="grid_6">
+			<div id="noticia2_titulo" class="noticia_titulo">Cursos</div>
+			<div id="noticia2_texto" class="noticia_texto">Para revisar el material del curso de postgrado en Diabetes por favor dar click en el siguiente enlace. <a href="cursos.html" class="ver_mas">Ver mas...</a></div>
+		</div>
+		<div id="noticia_3" class="grid_6">
+			<div id="noticia3_titulo" class="noticia_titulo">Laboratorio</div>
+			<div id="noticia3_texto" class="noticia_texto">Se realizan exámenes completos de orina y sangre; niveles de azúcar, lipidos, función del riñon e hígado <a href="servicios.html" class="ver_mas">Ver mas...</a></div>
+		</div>
+		<div id="flecha" class="grid_1">
+			<a href=""><img src="img/arrow_right.png"></a>
+		</div>
+			<div class="clear">&nbsp;</div>
+		
+        
+        <!-- Secciones -->
+		<div class="secciones">
+			<div id="seccion_1" class="grid_5  seccion">
+				<div id="seccion_titulo" class="seccion_titulo">Accesorios</div>
+				<div id="seccion_texto" class="seccion_texto">En CEDIMO podrá encontrar toda la gama de productos para el control de todos los síntomas de la diabetes, los modelos de medidores de glucosa más usados, glucómetros, lancetas, tiras reactivas, dulces, chocolates, postres sin azúcar.<a href="accesorios.html" class="ver_mas">Ver mas...</a>	
+				</div>
+			</div>
+			<div id="seccion_2" class="grid_5 seccion">
+				<div id="seccion_titulo" class="seccion_titulo">Servicios</div>
+				<div id="seccion_texto" class="seccion_texto">Lo más importantes es una valoración integral para el paciente con diabetes. Contamos con diferentes Planes de Atención Médica:Consulta Médico Endocrinólogo – Nutricional, Exámenes... <a href="servicios.html" class="ver_mas">Ver mas...</a>
+		 		</div>
+		 	</div>
+			<div id="seccion_3" class="grid_5 seccion">
+				<div id="seccion_titulo" class="seccion_titulo">Nutrición</div>
+					<div id="seccion_texto" class="seccion_texto">Una buena nutrición es la base del cuidado de la diabetes, en CEDIMO tenemos experiencia atendiendo al paciente diabético y sabemos que la atención no puede estar separada de una buena nutrición. <a href="nutricion.html" class="ver_mas">Ver mas...</a>
+					</div>
+			</div>
+			<div id="seccion_4" class="grid_5 seccion">
+				<div id="seccion_titulo" class="seccion_titulo">Contacto</div>
+				<div id="seccion_texto" class="seccion_texto">
+						<a href="mailto:diabetes@cedimo.com.mx" class="cuenta_correo">diabetes@cedimo.com.mx</a>
+						<a href="mailto:nutricion@cedimo.com.mx" class="cuenta_correo">nutricion@cedimo.com.mx</a>
+						<div class="tel_contacto">Tel. (81) 8347 5534</div>
+					</div>
+			</div>
+		</div>
+		<div class="clear">&nbsp;</div>
+		<!-- Footer -->
+		<div id="pie" class="grid_16 push_2">
+				<div id="firma" class="firma"><b>CENTRO DE DIABETES MONTERREY S.A. C.V. </b>	  |    Loma Grande No. 2717 Edificio San Francisco M-20  Col. Lomas de San Francisco   |  Monterrey, NL, CP 64710  |  Tel: (81) 8347 5594</div>
+		</div>
+
+	</div>
+</body>
+</html>
+
+
+
+
