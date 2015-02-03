@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  resources :documents
+
   get 'welcome/index'
 
   get 'password_resets/new'

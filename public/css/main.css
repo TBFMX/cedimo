@@ -45,9 +45,7 @@ body{
 	padding: 0px 0px 0px 0px;
 }
 
-.buscar{
-
-	input[type="text"]
+	#buscar input[type="text"]
 	{
 		font-family: "Open Sans", sans-serif;
 		font-size: 10pt;
@@ -60,7 +58,7 @@ body{
 		padding-left: 3px;
 	}
 
-	input[type="submit"]{
+	#buscar input[type="submit"]{
 		background:url(../img/searchbutton_01.png);
 		width: 25px;
 		height: 26px;
@@ -68,7 +66,7 @@ body{
 		border: none;
 		vertical-align: middle;
 	}
-} 
+
 
 .titulo{
 	/*Bebas Neue/ Regular/ 41pt/ 66CCCC/ leading:49, tracking:10*/
