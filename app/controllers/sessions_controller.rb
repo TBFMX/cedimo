@@ -3,6 +3,9 @@ class SessionsController < ApplicationController
   skip_before_action :authorize
 
   def new
+    if session[:user_id]
+      redirect_to documents_path
+    end  
   end
 
   def create
@@ -23,9 +26,9 @@ class SessionsController < ApplicationController
       session[:mod5] =rol.module_5
       #termina variables de rol
 
-  		redirect_to session[:lasurl]
+  		redirect_to documents_path
   	else
-  		redirect_to root_path, alert: "Invalid user/password combination"
+  		redirect_to login_path, alert: "Invalid user/password combination"
   	end
   end
 
