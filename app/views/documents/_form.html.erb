@@ -1,26 +1,4 @@
-<script type='text/javascript'>
-           
-function validateFiles(inputFile) {
-//var maxExceededMessage = "El Archivo excede el limite pérmitido (60 KB)";
-var extErrorMessage = "Solo se aceptan extenciones: .pdf, .ppt o .csv ";
-var allowedExtension = ["pdf", "ppt", "csv"];
-             
-var extName;
-var maxFileSize = $(inputFile).data('max-file-size');
-var sizeExceeded = false;
-var extError = false;
-             
-$.each(inputFile.files, function() {
-  
-    extName = this.name.split('.').pop();
-  if ($.inArray(extName, allowedExtension) == -1) {extError=true;};});
-    if (extError) {
-      window.alert(extErrorMessage);
-        $(inputFile).val('');
-    };
-}
 
-</script>
 
 <%= form_for(@document , :html => { :multipart => true } ) do |f| %>
   <% if @document.errors.any? %>
@@ -41,7 +19,7 @@ $.each(inputFile.files, function() {
   </div>
   <div class="field">
     <%= f.label :link %><br>
-    <%= f.file_field :link,:onchange =>"validateFiles(this);" %>
+    <%= f.file_field :link %>
   </div>
   <div class="field">
     <%#= f.label :owner %><br>
