@@ -60,7 +60,10 @@ class DocumentsController < ApplicationController
     else
       redirect_to @document, notice: 'el Documento estaba en blanco.' 
     end
-    @document.link = @docs
+    # @document.owner = session[:uname]
+    # @document.link = @docs
+    params[:document][:owner]=@docs
+    params[:document][:link]=@docs
     respond_to do |format|
       if @document.update(document_params)
         format.html { redirect_to @document, notice: 'Document was successfully updated.' }
