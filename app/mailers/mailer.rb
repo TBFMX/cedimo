@@ -39,7 +39,7 @@ class Mailer < ActionMailer::Base
 
   def destroy_user(user)
     @user = user
-    mail :to => user.email, :subject => "Su usuario a sido destruido", :from => "\"Conserje\" <info@tbf.mx>", :reply_to =>"conserje@tbf.com"
+    mail :to => user.email, :subject => "Su usuario ha sido destruido", :from => "\"Conserje\" <info@tbf.mx>", :reply_to =>"conserje@tbf.com"
   end
 
 
